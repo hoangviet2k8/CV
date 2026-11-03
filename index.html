@@ -96,8 +96,8 @@
     <!-- ----- SECTION: Dự án (danh sách thẻ dùng CSS Grid) ----- -->
     <section id="projects" class="section section-muted">
       <div class="container">
-        <h2 class="section-title">Dự án tiêu biểu</h2>
-        <p class="section-sub">Một vài sản phẩm tôi đã thực hiện.</p>
+        <h2 class="section-title"> Dự án dự kiến</h2>
+        <p class="section-sub">Một vài loại sản phẩm tôi muốn thực hiện.</p>
 
         <!-- .project-grid dùng CSS Grid (xem styles.css) -->
         <div class="project-grid">
@@ -642,6 +642,62 @@ color: #40c9c0;
             display: none;
         }
     </style>
+    <!-- Form liên hệ -->
+      <div class="contact-form-box">
+
+        <h3>Gửi tin nhắn</h3>
+
+        <form class="contact-form">
+
+          <div class="form-group">
+            <label for="fullname">Họ và tên</label>
+            <input
+              type="text"
+              id="fullname"
+              placeholder="Nhập họ tên">
+          </div>
+
+          <div class="form-group">
+            <label for="email-contact">Email</label>
+            <input
+              type="email"
+              id="email-contact"
+              placeholder="Nhập email">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">SỐ ĐIỆN THOẠI</label>
+            <input
+              type="text"
+              id="phone"
+              placeholder="Nhập số điện thoại">
+          </div>
+          <div class="form-group">
+            <label for="subject">Chủ đề</label>
+            <input
+              type="text"
+              id="subject"
+              placeholder="Nhập chủ đề">
+          </div>
+          <div class="form-group">
+            <label for="message">Nội dung</label>
+            <textarea
+              id="message"
+              rows="6"
+              placeholder="Nhập nội dung tin nhắn"></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">
+            Gửi tin nhắn
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
     </section>
   </main>
 <!-- ===== KHỐI ĐĂNG NHẬP & ĐĂNG KÍ ===== -->
@@ -731,6 +787,7 @@ color: #40c9c0;
           <li><span class="contact-label">LinkedIn</span> <a href="#">linkedin.com/in/hoangvanviet</a></li>
         </ul>
       </div>
+
     </section>
 
   </main>
